@@ -1,0 +1,17 @@
+.title {
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-color;
+  margin-bottom: 50px;
+
+  .team &,
+  .clients & {
+    font-size: 28px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+}
