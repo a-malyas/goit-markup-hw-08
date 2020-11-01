@@ -21,6 +21,10 @@
   transform: scale(1) rotate(0deg);
   transition: all 250ms linear 250ms;
 
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
+
   &-form {
     display: flex;
     justify-content: center;

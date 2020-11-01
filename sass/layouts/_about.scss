@@ -1,5 +1,5 @@
 .about {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 }
@@ -7,7 +7,7 @@
 .about-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 98px;
+  padding-bottom: 92px;
 
   &-item {
     position: relative;
