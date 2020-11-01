@@ -648,7 +648,7 @@ body {
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: -32px;
+    bottom: -33px;
     background-color: #2196f3;
     border-radius: 4px;
   }
@@ -904,6 +904,7 @@ body {
 
 .team {
   background-color: #f5f4fa;
+  min-width: 480px;
 }
 
 .team-title {
@@ -927,6 +928,7 @@ body {
 }
 
 .team-list {
+  min-width: 450px;
   padding-bottom: 60px;
 }
 
@@ -978,6 +980,23 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 60px;
+  width: 100%;
+}
+
+.clients-list-item {
+  width: calc((100% - 30px * 2) / 2);
+}
+
+@media screen and (min-width: 768px) {
+  .clients-list-item {
+    width: calc((100% - 30px * 3) / 3);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-list-item {
+    width: 170px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -985,10 +1004,6 @@ body {
     flex-wrap: nowrap;
     padding-bottom: 92px;
   }
-}
-
-.clients-list-item {
-  width: 208px;
 }
 
 .clients-list-item:not(:nth-last-child(-n + 2)) {
@@ -1005,7 +1020,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
