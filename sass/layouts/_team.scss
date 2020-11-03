@@ -1,6 +1,6 @@
 .team {
   background-color: #f5f4fa;
-  min-width: 480px;
+  //min-width: 480px;
 
   &-title {
     font-weight: 500;
@@ -23,7 +23,7 @@
   }
 
   &-list {
-    min-width: 450px;
+    //min-width: 450px;
     padding-bottom: 60px;
 
     @media screen and (min-width: 768px) {
@@ -62,6 +62,10 @@
       &-item:not(:nth-last-child(-n + 2)) {
         margin-bottom: 0px;
       }
+    }
+
+    &-img {
+      max-width: 100%;
     }
   }
 }

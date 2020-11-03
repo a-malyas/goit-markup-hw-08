@@ -55,4 +55,8 @@
       fill: $white-dark-theme;
     }
   }
+
+  &-item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
